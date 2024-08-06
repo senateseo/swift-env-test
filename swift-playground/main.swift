@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print(ProcessInfo.processInfo.environment["API_URL"]!)
 
